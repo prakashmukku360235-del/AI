@@ -1,5 +1,5 @@
 from openai import OpenAI
-client=OpenAI(api_key="Auth_Key")
+client=OpenAI(api_key="")
 
 def call_llm(prompt):
     response = client.responses.create(
